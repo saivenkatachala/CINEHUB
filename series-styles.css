@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('back1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white; /* Ensure text is readable over the background */
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand .logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-brand strong {
+    font-size: 24px;
+}
+
+.nav-search input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.series-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.series {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    overflow: hidden;
+    width: calc(25% - 20px);
+    box-sizing: border-box;
+    color: white;
+}
+
+.series img {
+    width: 100%;
+    height: auto;
+}
+
+.series-content {
+    padding: 15px;
+}
+
+.series-content h2 {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+}
+
+.series-content p {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.series-content .season {
+    margin-top: 15px;
+}
+
+.series-content .season h3 {
+    margin: 0;
+}
+
+.series-content .episode-list {
+    margin-top: 10px;
+}
+
+.series-content .episode-list h4 {
+    margin: 5px 0;
+}
+
+.series-content .button {
+    display: inline-block;
+    margin: 5px 5px 0 0;
+    padding: 10px 15px;
+    color: rgb(16, 15, 15);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.series-content .button:hover {
+    background-color: #a2d2ff;
+}
+
+.download-options {
+    margin: 10px 0;
+}
+
+.download-options a {
+    display: inline-block;
+    margin: 5px 5px 0 0;
+    padding: 8px 12px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.download-options a:hover {
+    background-color: #218838;
+}
+
+.about-section {
+    background: url('back2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer {
+    background: url('back1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .telegram-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .series {
+        width: calc(50% - 20px);
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .nav-search {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .series {
+        width: calc(100% - 20px);
+    }
+
+    .nav-search input {
+        width: 90%;
+    }
+
+    .nav-brand strong {
+        font-size: 20px;
+    }
+
+    .nav-brand .logo {
+        width: 30px;
+    }
+
+    .series-content h2 {
+        font-size: 16px;
+    }
+
+    .series-content p {
+        font-size: 12px;
+    }
+
+    .series-content .button {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .download-options a {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 15px;
+    }
+
+    .footer .telegram-icon {
+        width: 20px;
+        height: 20px;
+    }
+}
+.important-message {
+    color:#b5e48c;
+}
