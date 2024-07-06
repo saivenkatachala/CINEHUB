@@ -1,13 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
     const movies = [
+         {
+            title: 'Bhaje Vaayu Vegam (2024) Telugu  ',
+            poster: 'poster13.jpg',
+            watchLink: 'https://tgmstreamm-cc23fd301808.herokuapp.com/watch/216654?hash=AgADgB',
+            downloadLinks: {
+                '1080p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/216652?hash=AgADhx',
+                '720p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/216654?hash=AgADgB',
+                '480p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/216648?hash=AgADfR'
+            }
+        },
         {
             title: 'Gangs of Godavari (2024)Telugu ',
             poster: 'poster1.jpg',
-            watchLink: 'https://tgmstreamm-cc23fd301808.herokuapp.com/watch/314224?hash=AgADJR',
+            watchLink: 'https://tgmstreamm-cc23fd301808.herokuapp.com/watch/216632?hash=AgADJR',
             downloadLinks: {
-                '1080p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/314222?hash=AgADKB',
-                '720p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/314224?hash=AgADJR',
-                '480p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/314238?hash=AgADIh'
+                '1080p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/216636?hash=AgADKB',
+                '720p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/216632?hash=AgADJR',
+                '480p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/216634?hash=AgADKh'
             }
         },
         {
