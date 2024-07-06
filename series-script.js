@@ -1,5 +1,50 @@
 const seriesData = [
     {
+        title: "Mirzapur (2018) S01 EP (01-09)",
+        image: "series10.jpg",
+        description: "Language:Telugu,Hindi,English",
+        seasons: [
+            {
+                season: "Season 1",
+                episodes: [
+                    { title: "Episode 1", watchLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/216670?hash=AgADsh", downloadLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/216670?hash=AgADsh" },
+                    { title: "Episode 2", watchLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/watch/216672?hash=AgADrh", downloadLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/216672?hash=AgADrh" }
+                ]
+            },
+            
+        ]
+    },
+     {
+        title: "Mirzapur (2020) S02 EP (01-10)",
+        image: "series11.jpg",
+        description: "Language:Telugu,Hindi,English",
+        seasons: [
+            {
+                season: "Season 2",
+                episodes: [
+                    { title: "Episode 1", watchLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/watch/216688?hash=AgADtx", downloadLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/216688?hash=AgADtx" },
+                    { title: "Episode 2", watchLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/watch/216686?hash=AgADsR", downloadLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/216686?hash=AgADsR" }
+                ]
+            },
+            
+        ]
+    },
+    {
+        title: "Mirzapur (2020) S02 EP (01-10)",
+        image: "series12.jpg",
+        description: "Language:Telugu,Hindi,English",
+        seasons: [
+            {
+                season: "Season 3",
+                episodes: [
+                    { title: "Episode 1", watchLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/watch/216704?hash=AgADEx", downloadLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/216704?hash=AgADEx" },
+                    { title: "Episode 2", watchLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/watch/216702?hash=AgADTw", downloadLink: "https://tgmstreamm-cc23fd301808.herokuapp.com/216702?hash=AgADTw" }
+                ]
+            },
+            
+        ]
+    },
+    {
         title: "B & B Bujji and Bhairava",
         image: "series1.jpg",
         description: "Language:Telugu,Hindi,English",
