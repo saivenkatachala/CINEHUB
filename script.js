@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
          {
             title: 'Bhaje Vaayu Vegam (2024) Telugu  ',
             poster: 'poster13.jpg',
-            watchLink: 'https://tgmstreamm-cc23fd301808.herokuapp.com/watch/216654?hash=AgADgB',
+            watchLink: 'https://filetolink.mknbotz.workers.dev/watch/59312',
             downloadLinks: {
                 '1080p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/216652?hash=AgADhx',
                 '720p': 'https://tgmstreamm-cc23fd301808.herokuapp.com/216654?hash=AgADgB',
