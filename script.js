@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             title: 'Amaran (2024) Telugu  ',
             poster: 'AMARAN.jpg',
-            watchLink: 'https://filetolink.mknbotz.workers.dev/watch/91696',
+            watchLink: 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/805060?hash=AgADwx',
             downloadLinks: {
-                '1080p': 'https://filetolink.mknbotz.workers.dev/91696',
+                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/805064?hash=AgADyB',
                 '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/805036?hash=AgADxx',
-                '480p': 'https://filetolink.mknbotz.workers.dev/91694'
+                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/805060?hash=AgADwx'
             }
         },
          {
