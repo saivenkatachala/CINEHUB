@@ -1,5 +1,15 @@
 document.addEventListener('DOMContentLoaded', function() {
     const movies = [
+        {
+            title: 'Amaran (2024) Telugu  ',
+            poster: 'AMARAN.jpg',
+            watchLink: 'https://filetolink.mknbotz.workers.dev/watch/91696',
+            downloadLinks: {
+                '1080p': 'https://filetolink.mknbotz.workers.dev/91696',
+                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/805036?hash=AgADxx',
+                '480p': 'https://filetolink.mknbotz.workers.dev/91694'
+            }
+        },
          {
             title: 'Bhaje Vaayu Vegam (2024) Telugu  ',
             poster: 'poster13.jpg',
