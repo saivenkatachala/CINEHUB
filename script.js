@@ -10,6 +10,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836134?hash=AgADVB'
             }
         },
+        {
+            title: 'Lucky Baskhar (2024) Telugu  ',
+            poster: 'l1.jpg',
+            watchLink: 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/837497?hash=AgADKB',
+            downloadLinks: {
+                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/837503?hash=AgADOR',
+                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/837497?hash=AgADKB',
+                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/837507?hash=AgADJB'
+            }
+        },
          {
             title: 'Vettaiyan (2024) Telugu  ',
             poster: 'vtn.jpg',
