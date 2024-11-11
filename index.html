@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
     <title>CINEHUB</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -11,7 +11,7 @@
     <!-- Navbar -->
     <nav class="navbar">
         <div class="nav-brand">
-            <img src="logo.png" alt="TM Movies Logo" class="logo">
+            <img src="logo.png" alt="CINEHUB Logo" class="logo">
             <strong>CINEHUB</strong>
         </div>
         <div class="nav-search">
@@ -21,6 +21,7 @@
             <a href="index.html">Movies</a>
             <a href="series.html">Series</a>
             <a href="https://t.me/cinehun17_bot">Contact</a>
+            <a href="feedback.html" onclick="openFeedbackForm()">Feedback</a> <!-- Feedback link -->
         </div>
     </nav>
 
@@ -34,13 +35,33 @@
         <h2>About CINEHUB</h2>
         <p>Welcome to CINEHUB, your one-stop destination for watching and downloading the latest movies. Enjoy a seamless experience with our extensive collection of movies available in various qualities. Stay entertained with CINEHUB!😇</p>
         <p class="important-message"><strong>If any movie is not present on this website, you can message me through "Contact" which will redirect to a bot where you can send the movie name, and the movie will be added to the web!</strong></p>
-
-        </p>
     </div>
+
+    <!-- Feedback Form Popup -->
+    <div id="feedback-form" class="feedback-popup">
+        <div class="feedback-content">
+            <span class="close-btn" onclick="closeFeedbackForm()">&times;</span>
+            <h2>Feedback</h2>
+            <form id="feedbackForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
     <footer class="footer">
         <p>&copy; 2024 CINEHUB. All rights reserved.</p>
         <p>For queries, contact us on <a href="https://t.me/cinehun17_bot" target="_blank">Telegram</a>.</p>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
