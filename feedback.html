@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="logo.png" />
+    <title>Feedback - CINEHUB</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="logo.png" alt="CINEHUB Logo" class="logo">
+            <strong>CINEHUB</strong>
+        </div>
+       
+        <div class="nav-links">
+            <a href="index.html">Movies</a>
+            <a href="series.html">Series</a>
+            <a href="https://t.me/cinehun17_bot">Contact</a>
+           
+        </div>
+    </nav>
+    <!-- Feedback Form Section -->
+    <div class="feedback-container">
+        <h2>We value your feedback!</h2>
+        <form id="feedback-form">
+            <!-- Name Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <!-- Email Input -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <!-- Rating (Stars) -->
+            <label for="rating">Rating:</label>
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5"><label for="star5">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1">&#9733;</label>
+            </div>
+
+            <!-- Any Changes/Suggestions Textbox -->
+            <label for="changes">Any changes or suggestions:</label>
+            <textarea id="changes" name="changes" rows="4" required></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit Feedback</button>
+        </form>
+        <p id="status-message"></p>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2024 CINEHUB. All rights reserved.</p>
+        <p>For queries, contact us on <a href="https://t.me/cinehun17_bot" target="_blank">Telegram</a>.</p>
+    </footer>
+
+    <!-- Include EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3.2.0/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS
+        (function() {
+            emailjs.init("lVEdOKIhaN5C_hktq"); // Replace with your EmailJS user ID
+        })();
+    </script>
+    <script src="script1.js"></script>
+</body>
+</html>
