@@ -244,3 +244,152 @@ body {
 .important-message {
     color:#b5e48c;
 }
+/* General styling for the movie card container */
+.movie {
+    width: 300px; /* Increased size for the movie card */
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: #1b263b;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+/* Hover effect with slight 3D rotation */
+.movie:hover {
+    transform: scale(1.05) rotateY(5deg) rotateX(-3deg); /* Creates a 3D flex effect */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Movie poster styling */
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Content styling */
+.movie-content {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Button styling for Watch Online and Download */
+.movie-content .button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #219ebc;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+/* Movie title styling */
+.movie-content h2 {
+    font-size: 20px;
+    color: #ffffff; /* Change to white for better contrast */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent background for better readability */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* Dropdown options styling */
+.dropdown-options {
+    display: none;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Dropdown button styling */
+.dropdown-options a.button {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #219ebc;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Dropdown button hover effect */
+.dropdown-options a.button:hover {
+    background-color: #219ebc;
+}
+
+/* Feedback Form Popup Styling */
+.feedback-popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.feedback-content h2 {
+    margin-top: 0;
+}
+
+.feedback-content label {
+    display: block;
+    margin-top: 10px;
+}
+
+.feedback-content input, .feedback-content textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.feedback-content button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.feedback-content button:hover {
+    background-color: #45a049;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
