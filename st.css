@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     height: 100vh;
-    background: linear-gradient(45deg, #ff9a8b, #ff6a88, #ff5e62);
+    background: linear-gradient(45deg, #bde0fe, #d8e2dc, #e5e5e5);
     background-size: 300% 300%;
     animation: backgroundAnimation 10s ease infinite;
     display: flex;
@@ -75,7 +75,7 @@ body {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
-    background: linear-gradient(145deg, #ffe9a7, #ffd2a1);
+    background: linear-gradient(145deg, #adb5bd, #ffd2a1);
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.5);
     border-radius: 15px;
     text-align: center;
@@ -86,7 +86,7 @@ body {
 
 .feedback-container:hover {
     transform: scale(1.05);
-    background: linear-gradient(145deg, #ffcda1, #ffeb99);
+    background: linear-gradient(145deg, #ffc8dd, #ffeb99);
 }
 
 /* Header Styling */
