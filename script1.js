@@ -19,10 +19,10 @@ document.getElementById("feedback-form").addEventListener("submit", function(eve
     emailjs.send("service_4z53bkp", "template_2f254zt", templateParams)
         .then(function(response) {
             console.log("Feedback sent successfully!", response.status, response.text);
-            document.getElementById("status-message").textContent = "Thank you for your feedback!";
+            document.getElementById("status-message").textContent = "Thank you for your feedback ❤!";
             document.getElementById("feedback-form").reset();
         }, function(error) {
             console.error("Failed to send feedback:", error);
-            document.getElementById("status-message").textContent = "Oops! Something went wrong. Please try again.";
+            document.getElementById("status-message").textContent = "Oops! Something went wrong. Please try again🙁.";
         });
 });
