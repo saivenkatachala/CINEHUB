@@ -1,0 +1,209 @@
+/* Body and general background */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background: linear-gradient(45deg, #ff9a8b, #ff6a88, #ff5e62);
+    background-size: 300% 300%;
+    animation: backgroundAnimation 10s ease infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align content at the top */
+    align-items: center;
+    overflow: hidden;
+    padding-top: 60px; /* Add space for navbar */
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Navbar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 10px 20px;
+    z-index: 10; /* Ensures navbar stays on top of other content */
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+}
+
+.nav-brand .logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nav-brand strong {
+    font-size: 24px;
+}
+
+.nav-search input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+/* Feedback Form Container */
+.feedback-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(145deg, #ffe9a7, #ffd2a1);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.4s ease, background 0.5s ease;
+    z-index: 1; /* Make sure the feedback form stays on top */
+    margin-top: 60px; /* Space between navbar and feedback form */
+}
+
+.feedback-container:hover {
+    transform: scale(1.05);
+    background: linear-gradient(145deg, #ffcda1, #ffeb99);
+}
+
+/* Header Styling */
+.feedback-header {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-shadow: inset 3px 3px 5px rgba(0, 0, 0, 0.1), inset -3px -3px 5px rgba(255, 255, 255, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    height: 80px;
+}
+
+/* Star Rating */
+.star-rating {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.star-rating input[type="radio"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 28px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.star-rating input[type="radio"]:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+    color: gold;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: #ff8a65;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2), -3px -3px 10px rgba(255, 255, 255, 0.5);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: #ff7043;
+    transform: scale(1.05);
+}
+
+/* Make Form Responsive */
+@media (max-width: 600px) {
+    .feedback-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .feedback-header {
+        font-size: 22px;
+    }
+
+    .submit-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px; /* Ensure footer stays at the bottom */
+}
+
+.footer a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .telegram-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
