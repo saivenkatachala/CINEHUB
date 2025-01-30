@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         
-        }:
+        };
 
     const movieList = document.getElementById('movie-list');
 
