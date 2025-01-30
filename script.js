@@ -14,6 +14,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 '480p': ''
             }
         },
+         {
+            title: 'Gangs of Godavari (2024) Telugu',
+            poster: 'poster1.jpg',
+            watchLinks: {
+                '1080p': '',
+                '720p': '',
+                '480p': ''
+            },
+            downloadLinks: {
+                '1080p': '',
+                '720p': '',
+                '480p': ''
+            }
+        },
         
         
 
