@@ -28,8 +28,36 @@ document.addEventListener('DOMContentLoaded', function() {
                 '480p': ''
             }
         },
+        {
+            title: 'Dear Nana (2024) Telugu',
+            poster: 'poster3.jpg',
+            watchLinks: {
+                '1080p': '',
+                '720p': '',
+                '480p': ''
+            },
+            downloadLinks: {
+                '1080p': '',
+                '720p': '',
+                '480p': ''
+            }
+        },
+        {
+            title: 'Dear Nana (2024) Telugu',
+            poster: 'poster4.jpg',
+            watchLinks: {
+                '1080p': '',
+                '720p': '',
+                '480p': ''
+            },
+            downloadLinks: {
+                '1080p': '',
+                '720p': '',
+                '480p': ''
+            }
+        },
         
-        
+        }:
 
     const movieList = document.getElementById('movie-list');
 
