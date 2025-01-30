@@ -4,74 +4,18 @@ document.addEventListener('DOMContentLoaded', function() {
             title: 'Devara: Part 1 (2024) Telugu',
             poster: 'dv2.jpg',
             watchLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847060?hash=AgADMh',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847064?hash=AgADTx',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847068?hash=AgADVR'
+                '1080p': '',
+                '720p': '',
+                '480p': ''
             },
             downloadLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836122?hash=AgADTx',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836126?hash=AgADTh',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836134?hash=AgADVB'
+                '1080p': '',
+                '720p': '',
+                '480p': ''
             }
         },
-        {
-            title: 'Lucky Baskhar (2024) Telugu  ',
-            poster: 'l1.jpg',
-            watchLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847005?hash=AgADOR',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847009?hash=AgADKB',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/846999?hash=AgADJB'
-            },
-            downloadLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/837503?hash=AgADOR',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/837497?hash=AgADKB',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/837507?hash=AgADJB'
-            }
-        },
-        {
-            title: 'Vettaiyan (2024) Telugu  ',
-            poster: 'vtn.jpg',
-            watchLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847072?hash=AgADOx',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847076?hash=AgADgR',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847080?hash=AgADfB'
-            },
-            downloadLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836142?hash=AgADgR',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836146?hash=AgADfB',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836152?hash=AgADdx'
-            }
-        },
-        {
-            title: 'ARM (2024) Telugu  ',
-            poster: 'arm.avif',
-            watchLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847052?hash=AgADMx',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847058?hash=AgADYB',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847054?hash=AgADYh'
-            },
-            downloadLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836112?hash=AgADaB',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836102?hash=AgADYB',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/836108?hash=AgADYh'
-            }
-        },
-        {
-            title: 'Amaran (2024) Telugu  ',
-            poster: 'AMARAN.jpg',
-            watchLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847036?hash=AgADyB',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847040?hash=AgADxx',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/watch/847044?hash=AgADwx'
-            },
-            downloadLinks: {
-                '1080p': 'https://tg-movies4u.tgmkvofcl.workers.dev/805064?hash=AgADyB',
-                '720p': 'https://tg-movies4u.tgmkvofcl.workers.dev/805036?hash=AgADxx',
-                '480p': 'https://tg-movies4u.tgmkvofcl.workers.dev/805060?hash=AgADwx'
-            }
-        }
-        // Add more movies here
-    ];
+        
+        
 
     const movieList = document.getElementById('movie-list');
 
