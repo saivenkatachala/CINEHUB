@@ -43,8 +43,8 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         },
         {
-            title: 'Dear Nana (2024) Telugu',
-            poster: 'poster4.jpg',
+            title: 'star (2024) Telugu',
+            poster: 'poster5.jpg',
             watchLinks: {
                 '1080p': '',
                 '720p': '',
